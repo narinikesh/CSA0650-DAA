@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	printf("N.Nikesh-192210011\n");
+    char str[100];
+    printf("enter the string\n");
+    scanf("%s",str);
+    printf("%s",strrev(str));
+    return 0;
+}
